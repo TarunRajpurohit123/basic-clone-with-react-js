@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/basic-clone-with-react-js/static/css/main.df21dc12.css",
+    "main.js": "/basic-clone-with-react-js/static/js/main.47703a25.js",
+    "index.html": "/basic-clone-with-react-js/index.html",
+    "main.df21dc12.css.map": "/basic-clone-with-react-js/static/css/main.df21dc12.css.map",
+    "main.47703a25.js.map": "/basic-clone-with-react-js/static/js/main.47703a25.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.df21dc12.css",
+    "static/js/main.47703a25.js"
+  ]
+}
