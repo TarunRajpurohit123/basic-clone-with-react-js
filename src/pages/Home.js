@@ -15,7 +15,7 @@ const Home = () => {
             </Link>
           </div>
           <div>
-            <img src="./images/pizza.png" />
+            <img src="/images/pizza.png" />
           </div>
         </div>
       </section>
