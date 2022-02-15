@@ -1,0 +1,70 @@
+@import "variable";
+@import "mixin";
+
+.products {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+  .container {
+    width: 90%;
+    margin: auto;
+    .products-grid {
+      padding-left: 1.5rem;
+      display: grid;
+      grid-template-rows: 1fr;
+      grid-auto-rows: 1fr;
+      grid-gap: 2rem;
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 22rem));
+    }
+    h1 {
+      text-transform: capitalize;
+      font-weight: bolder;
+    }
+    .pizza {
+      margin-top: 2rem;
+      img {
+        width: 100%;
+        padding: 1rem;
+      }
+      div {
+        text-align: center;
+        .pizza-name {
+          font-weight: bolder;
+          text-transform: capitalize;
+        }
+        .pizza-size {
+          display: inline-block;
+          margin-top: 0.5rem;
+          text-transform: capitalize;
+          font-weight: 900;
+          background-color: $gray;
+          padding: 0.3rem 1rem;
+          font-size: 1rem;
+          border-radius: 5rem;
+        }
+      }
+      .last {
+        margin-top: 1rem;
+        display: flex;
+        width: 97%;
+        justify-content: space-between;
+        align-items: center;
+        .price {
+          font-size: 1.5rem;
+          font-weight: 700;
+        }
+        button {
+          @include order-btn;
+          color: $dark;
+          width: fit-content;
+          padding-top: 0.5rem;
+          padding-bottom: 0.5rem;
+          cursor: pointer;
+          transition: $trans;
+          &:hover{
+            background-color: $primary-hover;
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,22 @@
+@import "variable";
+
+.hh {
+  margin-top: 5rem;
+  text-align: center;
+}
+.prid {
+  color: red;
+  text-align: center;
+  font-size: 3rem;
+}
+.backbtn{
+  color: $dark;
+  font-weight: bold;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  cursor: pointer;
+  font-family: sans-serif;
+}

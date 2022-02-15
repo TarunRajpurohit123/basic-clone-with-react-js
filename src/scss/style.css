@@ -1,0 +1,248 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap");
+nav {
+  padding: 1rem;
+}
+
+nav div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 90%;
+  margin: auto;
+}
+
+nav div .right .link {
+  text-decoration: none;
+  font-size: 2rem;
+  text-transform: capitalize;
+  color: #232323;
+  padding-right: 2rem;
+}
+
+nav div .right .cart {
+  display: inline-block;
+  text-decoration: none;
+}
+
+nav div .right .cart div {
+  background-color: #FE5F1E;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 1rem;
+  border-radius: 40%;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+nav div .right .cart div span {
+  color: #232323;
+  font-size: 2rem;
+}
+
+nav div .right .cart div:hover {
+  background-color: #b23301;
+}
+
+.hero {
+  padding-top: 5rem;
+  background-color: #F8F8F8;
+}
+
+.hero .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 80%;
+  margin: auto;
+}
+
+.hero .container em {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.hero .container h1 {
+  font-size: 5rem;
+  margin-top: 0.5rem;
+  margin-bottom: 1.7rem;
+}
+
+.hero .container .order-btn {
+  color: #fff;
+  background-color: #FE5F1E;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 1.2rem;
+  border-radius: 10rem;
+  width: 12rem;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.hero .container .order-btn:hover {
+  background-color: #b23301;
+}
+
+.products {
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.products .container {
+  width: 90%;
+  margin: auto;
+}
+
+.products .container .products-grid {
+  padding-left: 1.5rem;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-rows: 1fr;
+      grid-template-rows: 1fr;
+  grid-auto-rows: 1fr;
+  grid-gap: 2rem;
+  -ms-grid-columns: (minmax(20rem, 22rem))[auto-fit];
+      grid-template-columns: repeat(auto-fit, minmax(20rem, 22rem));
+}
+
+.products .container h1 {
+  text-transform: capitalize;
+  font-weight: bolder;
+}
+
+.products .container .pizza {
+  margin-top: 2rem;
+}
+
+.products .container .pizza img {
+  width: 100%;
+  padding: 1rem;
+}
+
+.products .container .pizza div {
+  text-align: center;
+}
+
+.products .container .pizza div .pizza-name {
+  font-weight: bolder;
+  text-transform: capitalize;
+}
+
+.products .container .pizza div .pizza-size {
+  display: inline-block;
+  margin-top: 0.5rem;
+  text-transform: capitalize;
+  font-weight: 900;
+  background-color: #ccc;
+  padding: 0.3rem 1rem;
+  font-size: 1rem;
+  border-radius: 5rem;
+}
+
+.products .container .pizza .last {
+  margin-top: 1rem;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 97%;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.products .container .pizza .last .price {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.products .container .pizza .last button {
+  color: #fff;
+  background-color: #FE5F1E;
+  border: none;
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-transform: capitalize;
+  text-decoration: none;
+  padding: 1.2rem;
+  border-radius: 10rem;
+  width: 12rem;
+  color: #232323;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  cursor: pointer;
+  -webkit-transition: all 0.7s;
+  transition: all 0.7s;
+}
+
+.products .container .pizza .last button:hover {
+  background-color: #b23301;
+}
+
+.hh {
+  margin-top: 5rem;
+  text-align: center;
+}
+
+.prid {
+  color: red;
+  text-align: center;
+  font-size: 3rem;
+}
+
+.backbtn {
+  color: #232323;
+  font-weight: bold;
+  background: none;
+  border: none;
+  font-size: 2rem;
+  margin-top: 3rem;
+  margin-left: 3rem;
+  cursor: pointer;
+  font-family: sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+::-moz-selection {
+  background-color: tomato;
+}
+
+::selection {
+  background-color: tomato;
+}
+/*# sourceMappingURL=style.css.map */
